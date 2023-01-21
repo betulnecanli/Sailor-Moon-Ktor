@@ -12,4 +12,5 @@ fun Application.module() {
     configureSerialization()
     configureMonitoring()
     configureRouting()
+    configureDefaultHeader()
 }
