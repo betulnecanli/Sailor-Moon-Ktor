@@ -7,6 +7,8 @@ data class SailorMoonModel(
         val id : Int,
         val name : String,
         val image : String,
-        val about : String,
-        val family : List<String>
+        val realName : String,
+        val birthday : String,
+        val age : Int,
+        val species : String
 )

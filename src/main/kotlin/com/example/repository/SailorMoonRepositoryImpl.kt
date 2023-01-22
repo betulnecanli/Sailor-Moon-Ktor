@@ -19,24 +19,32 @@ class SailorMoonRepositoryImpl(
     override val page1 = listOf(
         SailorMoonModel(
             id = 1,
-            name ="" ,
+            name ="Sailor Moon" ,
             image = "/images/moon.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
         ),
         SailorMoonModel(
             id = 2,
-            name ="" ,
+            name ="Sailor Mars" ,
             image = "/images/mars.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 3,
             name ="" ,
             image = "/images/mercury.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         )
     )
     override val page2 = listOf(
@@ -44,22 +52,31 @@ class SailorMoonRepositoryImpl(
             id = 4,
             name ="" ,
             image = "/images/jupiter.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 5,
             name ="" ,
             image = "/images/pluto.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 6,
             name ="" ,
             image = "/images/saturn.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         )
     )
     override val page3 = listOf(
@@ -67,22 +84,31 @@ class SailorMoonRepositoryImpl(
             id = 7,
             name ="" ,
             image = "/images/venus.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 8,
             name ="" ,
             image = "/images/neptun.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 9,
             name ="" ,
             image = "/images/uranus.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         )
     )
     override val page4 = listOf(
@@ -90,22 +116,31 @@ class SailorMoonRepositoryImpl(
             id = 10,
             name ="" ,
             image = "/images/sailorkakyuu.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 11,
             name ="" ,
             image = "/images/sailorcosmos.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 12,
             name ="" ,
             image = "/images/mamoruchiba.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         )
     )
     override val page5 = listOf(
@@ -113,22 +148,31 @@ class SailorMoonRepositoryImpl(
             id = 13,
             name ="" ,
             image = "/images/starFigher.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 14,
             name ="" ,
             image = "/images/starHealer.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         ),
         SailorMoonModel(
             id = 15,
             name ="" ,
             image = "/images/starMaker.jpg",
-            about = "",
-            family = listOf()
+            realName = "",
+            birthday = "",
+            age = 1,
+            species = ""
+
         )
     )
 
