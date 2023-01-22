@@ -13,5 +13,5 @@ interface SailorMoonRepository {
     val page4 : List<SailorMoonModel>
     val page5 : List<SailorMoonModel>
     suspend fun gelAllCharacters(page : Int = 1 ) : ApiResponse
-    suspend fun searchCharacters(name : String ) : ApiResponse
+    suspend fun searchCharacters(name : String?) : ApiResponse
 }
