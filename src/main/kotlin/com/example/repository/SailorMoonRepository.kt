@@ -5,7 +5,7 @@ import com.example.models.SailorMoonModel
 
 interface SailorMoonRepository {
 
-    val chars : Map<Int, SailorMoonModel>
+    val chars : Map<Int, List<SailorMoonModel>>
 
     val page1 : List<SailorMoonModel>
     val page2 : List<SailorMoonModel>

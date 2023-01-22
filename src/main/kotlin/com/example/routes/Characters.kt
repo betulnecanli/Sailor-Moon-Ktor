@@ -10,8 +10,10 @@ fun Route.characters(){
     get("/sailormoon/characters"){
        try {
            val page = call.request.queryParameters["page"]?.toInt() ?: 1
+           require(page in 1..5)
 
            call.respond(message = page)
+
        }
        catch (e: NumberFormatException){
            call.respond(
@@ -19,5 +21,11 @@ fun Route.characters(){
                status = HttpStatusCode.BadRequest
            )
        }
+        catch (e :IllegalArgumentException){
+            call.respond(
+                message = ApiResponse(success = false, message = "Heroes not found."),
+                status = HttpStatusCode.BadRequest
+            )
+        }
     }
 }
