@@ -27,7 +27,11 @@ class SailorMoonRepositoryImpl(
             birthday = "June 30th",
             age = 16,
             species = "Human",
-            heartRate = 5.0
+            heartRate = 5.0,
+            about = "Usagi Tsukino (月野 うさぎ, Tsukino Usagi) is the Sailor Guardian of love and justice: " +
+                    "Sailor Moon (セーラームーン, Seeraa Muun). She is the reincarnation of Princess Serenity " +
+                    "(プリンセス・セレニティ;Purinsesu Sereniti) and the titular character of the Pretty Guardian " +
+                    "Sailor Moon manga."
         ),
         Characters(
             id = 2,
@@ -37,7 +41,10 @@ class SailorMoonRepositoryImpl(
             birthday = "April 17",
             age = 16,
             species = "Human",
-              heartRate = 5.0
+            heartRate = 5.0,
+            about = "Rei Hino (火野 レイ, Hino Rei) is the civilian identity and present-day incarnation of " +
+                    "Sailor Mars (セーラーマーズ, Seera Maazu). She is a shrine priestess who lives at Hikawa Shrine" +
+                    "with her Grandfather and the crows Phobos and Deimos in the manga."
 
         ),
         Characters(
@@ -48,7 +55,11 @@ class SailorMoonRepositoryImpl(
             birthday = "September 10",
             age = 16,
             species = "Human",
-            heartRate = 4.8
+            heartRate = 4.8,
+            about = "Ami Mizuno (水野 亜美, Mizuno Ami) is the civilian identity and present-day incarnation of Sailor" +
+                    " Mercury (セーラーマーキュリー, Seeraa Maakyurii)." +
+                    " She is one of the four Inner Sailor Guardians and the second Senshi recruited " +
+                    "by Luna in the manga."
 
         )
     )
@@ -61,7 +72,9 @@ class SailorMoonRepositoryImpl(
             birthday = "December 5",
             age = 15,
             species = "Human",
-            heartRate = 4.5
+            heartRate = 4.5,
+            about = "Makoto “Mako” Kino (木野 まこと, Kino Makoto) is the civilian identity and " +
+                    "present-day incarnation of Sailor Jupiter (セーラージュピター, Seeraa Jupitaa) in the manga."
 
         ),
         Characters(
@@ -72,7 +85,10 @@ class SailorMoonRepositoryImpl(
             birthday = "October 29",
             age = 19,
             species = "Human",
-            heartRate = 4.2
+            heartRate = 4.2,
+            about = "Setsuna Meiou (冥王 せつな, Meiou Setsuna) is the civilian identity " +
+                    "and present-day incarnation of Sailor Pluto (セーラープルート, Seera Puruuto)." +
+                    " She is one of the Outer Senshi and the guardian of the Door of Space and Time."
 
         ),
         Characters(
@@ -83,7 +99,11 @@ class SailorMoonRepositoryImpl(
             birthday = "January 6th",
             age = 14,
             species = "Human",
-              heartRate = 4.1
+            heartRate = 4.1,
+            about = "Hotaru Tomoe (土萠 ほたる, Tomoe Hotaru) is the daughter of Souichi Tomoe and Keiko Tomoe," +
+                    " and the civilian identity and present-day incarnation of Sailor Saturn (セーラーサターン, " +
+                    "Seeraa Sataan). She is a close friend of Chibiusa and the last of the Outer Sailor Guardians" +
+                    " to awaken in the manga."
 
         )
     )
@@ -96,7 +116,11 @@ class SailorMoonRepositoryImpl(
             birthday = "October 22",
             age = 16,
             species = "Human",
-              heartRate = 4.7
+            heartRate = 4.7,
+            about = "Minako Aino (愛野 美奈子, Aino Minako) is the present-day incarnation of Sailor Venus" +
+                    " (セーラーヴィーナス, Sērā Vīnasu) and the civilian identity of Sailor V " +
+                    "(セーラーV, Sērā Bui). Minako is the original Sailor Guardian, protagonist of Codename:" +
+                    " Sailor V, and leader of the Inner Sailor Guardians in the Sailor Moon manga."
 
         ),
         Characters(
@@ -107,7 +131,9 @@ class SailorMoonRepositoryImpl(
             birthday = "March 6",
             age = 16,
             species = "Human",
-            heartRate = 4.3
+            heartRate = 4.3,
+            about = "Michiru Kaiou (海王 みちる, Kaiou Michiru) is the civilian identity " +
+                    "and present-day incarnation of Sailor Neptune (セーラーネプチューン, Seeraa Nepuchuun)."
 
         ),
         Characters(
@@ -118,7 +144,9 @@ class SailorMoonRepositoryImpl(
             birthday = "January 27th",
             age = 16,
             species = "Human",
-            heartRate = 4.2
+            heartRate = 4.2,
+            about = "Haruka Tenou (天王 はるか, Tenou Haruka) is the civilian identity and present-day " +
+                    "incarnation of Sailor Uranus (セーラーウラヌス, Seeraa Uranusu)."
 
         )
     )
@@ -131,7 +159,10 @@ class SailorMoonRepositoryImpl(
             birthday = "Unknown",
             age = null,
             species = "Kinmoku Humanoid",
-            heartRate = 2.9
+            heartRate = 2.9,
+            about = "Princess Kakyuu (火球皇女, Kakyuu Koujo) is the princess of the planet Kinmoku" +
+                    " who fled to Earth after her planet was destroyed by the Shadow Galactica empire. " +
+                    "She is also the civilian identity of Sailor Kakyuu (セーラー火球, Seeraa Kakyuu)."
 
         ),
         Characters(
@@ -142,7 +173,11 @@ class SailorMoonRepositoryImpl(
             birthday = "June 30th",
             age = null,
             species = "Human",
-            heartRate = 2.4
+            heartRate = 2.4,
+            about = "Sailor Cosmos is a central figure in the final arc of Sailor Moon. " +
+                    "She is a Sailor Guardian from the distant future who initially disguises herself" +
+                    " as a small girl: Chibi Chibi. " +
+                    "She reveals her true form in the last two acts of the manga."
 
         ),
         Characters(
@@ -153,7 +188,10 @@ class SailorMoonRepositoryImpl(
             birthday = "August 3rd",
             age = 18,
             species = "Human",
-            heartRate = 5.0
+            heartRate = 5.0,
+            about = "Mamoru Chiba (地場 衛, Chiba Mamoru) is the reincarnation of Prince Endymion " +
+                    "and Sailor Moon's love interest. He is the civilian identity of Tuxedo Mask " +
+                    "(タキシード仮面, Takishīdo Kamen)."
 
         )
     )
@@ -166,7 +204,10 @@ class SailorMoonRepositoryImpl(
             birthday = "February 8th",
             age = 16,
             species = "Kinmoku Humanoid",
-            heartRate = 2.9
+            heartRate = 2.9,
+            about = "Kou Yaten (夜天光, Yaten Kou) is one of the members " +
+                    "of the Three Lights and is the civilian identity of Sailor Star Healer " +
+                    "(セーラースターヒーラー, Seeraa Sutaa Hiiraa) of the Sailor Starlights in the manga."
 
         ),
         Characters(
@@ -177,7 +218,9 @@ class SailorMoonRepositoryImpl(
             birthday = "July 30",
             age = 16,
             species = "Kinmoku humanoid",
-            heartRate = 2.8
+            heartRate = 2.8,
+            about = "Kou Seiya (星野光) is one of the members of the Three Lights idol group " +
+                    "and is the civilian identity of Sailor Star Fighter of the Sailor Starlights."
 
         ),
         Characters(
@@ -188,7 +231,10 @@ class SailorMoonRepositoryImpl(
             birthday = "May 30",
             age = 16,
             species = "Kinmoku Humanoid",
-            heartRate = 2.7
+            heartRate = 2.7,
+            about = "Kou Taiki (大気光, Taiki Kou) is one of the members of " +
+                    "the Three Lights idol group and is the civilian identity of Sailor Star Maker " +
+                    "(セーラースターメーカー, Seeraa Sutaa Meekaa) and part of the Sailor Starlights."
 
         )
     )
@@ -199,7 +245,8 @@ class SailorMoonRepositoryImpl(
             message = "OK",
             prevPage = calculatePage(page)[PREV_PAGE_KEY],
             nextPage = calculatePage(page)[NEXT_PAGE_KEY],
-            sailorMoon = chars[page]!!
+            sailorMoon = chars[page]!!,
+            lastUpdated = System.currentTimeMillis()
         )
     }
 

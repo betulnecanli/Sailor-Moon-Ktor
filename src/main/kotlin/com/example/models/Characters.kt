@@ -11,5 +11,6 @@ data class Characters(
     val birthday: String,
     val age: Int?,
     val species: String,
-    val heartRate : Double
+    val heartRate : Double,
+    val about : String
 )
