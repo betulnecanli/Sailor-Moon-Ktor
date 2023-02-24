@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">  
-🌙 This project shows usage of Kotlin library ktor: Simple REST Server exposing JSON API for Sailor Moon entities. 🌙
+ This project shows usage of Kotlin library ktor: Simple REST Server exposing JSON API for Sailor Moon entities. 
 </p>
 </br>
 
