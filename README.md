@@ -1,10 +1,19 @@
-# SailorMoonServer
+# <h1 align="center">Sailor Moon Server</h1>
 
-This project shows usage of Kotlin library ktor: Simple REST Server exposing JSON API for Sailor Moon entities.
+<p align="center">
+<img src="https://github.com/betulnecanli/SailorMoonServer/blob/master/banner/sailorbnnr.png?raw=true"/>
+</p>
 
-## Show Characters
+<p align="center">  
+🌙 This project shows usage of Kotlin library ktor: Simple REST Server exposing JSON API for Sailor Moon entities. 🌙
+</p>
+</br>
+
+# <h2 align="center">Endpoints</h2>
+## Show All Characters 
 - Method : GET
 - Request : localhost:8080/sailormoon/characters
+- Response : 
 ```json 
 ...
 {
@@ -44,9 +53,24 @@ This project shows usage of Kotlin library ktor: Simple REST Server exposing JSO
 }
 ...
 ```
+## Show Character Details
+- Method : GET
+- Request : localhost:8080/sailormoon/characters?name="sailormars"
+- Response : 
+```json 
+...
+
+...
+```
 
 
 ## Search Characters
 - Method : GET
 - Request : localhost:8080/sailormoon/characters/search?name=""
+- Response : 
+```json 
+...
 
+...
+```
+# <h2 align="center">How to run?</h2>
