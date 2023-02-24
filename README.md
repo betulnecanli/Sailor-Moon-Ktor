@@ -94,3 +94,6 @@ You can use Postman for requests and responses.
 ```
  <h2 align="center">Tech Stack 📚</h2>
 
+- [Kotlin](https://kotlinlang.org/) based,
+- [Ktor Framework](https://ktor.io/docs/welcome.html) 
+- [Koin](https://insert-koin.io/) for dependency injection.
