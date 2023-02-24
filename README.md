@@ -1,4 +1,4 @@
-# <h1 align="center">Sailor Moon Server</h1>
+# <h1 align="center">🌙 Sailor Moon Server</h1>
 
 <p align="center">
 <img src="https://github.com/betulnecanli/SailorMoonServer/blob/master/banner/sailorbnnr.png?raw=true"/>
