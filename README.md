@@ -9,6 +9,9 @@
 </p>
 </br>
 
+**👉 Here is the [Sailor Moon App Repo](https://github.com/betulnecanli/SailorMoonApp).**
+
+
 # <h2 align="center">How to run? 🚀 </h2>
 <p align="center"> 
 After the download the project, you can open it with Intellij Idea. 
