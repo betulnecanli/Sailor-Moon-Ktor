@@ -11,7 +11,7 @@ fun Route.searchCharacters(){
 
     val sailorMoonRepository : SailorMoonRepository by inject()
 
-        get("/sailormoon/characters/search"){
+        get("/sailormoon/characters/searchcharacters"){
             val name = call.request.queryParameters["name"]
 
             val apiResponse = sailorMoonRepository.searchCharacters(name)
